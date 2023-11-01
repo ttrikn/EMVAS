@@ -1,0 +1,47 @@
+{
+
+  "audio": {
+    "tool": "librosa",
+    "sample_rate": 22050,
+    "args": {
+      "mfcc": {
+        "n_mfcc": 20,
+        "htk": true
+      },
+      "zero_crossing_rate": {},
+      "chroma_cqt": {}
+    }
+  },
+  "video": {
+    "tool": "openface",
+    "fps": 25,
+    "multiFace": {
+      "enable": false,
+      "device": "cuda:0",
+      "facedetScale": 0.25,
+      "minTrack": 10,
+      "numFailedDet": 10,
+      "minFaceSize": 1,
+      "cropScale": 0.4
+    },
+    "average_over": 1,
+    "args": {
+      "hogalign": false,
+      "simalign": false,
+      "nobadaligned": false,
+      "landmark_2D": true,
+      "landmark_3D": false,
+      "pdmparams": false,
+      "head_pose": true,
+      "action_units": true,
+      "gaze": false,
+      "tracked": false
+    }
+  },
+  "text": {
+    "model": "bert",
+    "device": "cpu",
+    "pretrained": "bert-base-uncased",
+    "args": {}
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "text": {
+    "model": "bert",
+    "device": "cuda",
+    "pretrained": "bert-base-uncased",
+    "args": {}
+  },
+  "audio": {
+    "tool": "opensmile",
+    "sample_rate": 16000,
+    "args": {
+      "feature_set": "eGeMAPSv02",
+      "feature_level": "LowLevelDescriptors",
+      "start": null,
+      "end": null
+    }
+  },
+  "video": {
+    "tool": "openface",
+    "fps": 30,
+    "average_over": 1,
+    "args": {
+      "hogalign": false,
+      "simalign": false,
+      "nobadaligned": false,
+      "landmark_2D": true,
+      "landmark_3D": false,
+      "pdmparams": false,
+      "head_pose": false,
+      "action_units": true,
+      "gaze": false,
+      "tracked": false
+    }
+  },
+  "align": {
+    "sr": 16000,
+    "language": "en-us",
+    "device": "cpu",
+    "has_transcript": true,
+    "model_download_dir": "default"
+  }
+}
