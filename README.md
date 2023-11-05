@@ -1,5 +1,5 @@
 # E2E-MERA-SC
-This is the open source code for paper: Open source code for paper: End-to-End Emotion Recognition Method Based on Multimodal Information from Voice, Text, and Images
+This is the open source code for paper: Open source code for paper: End-to-End Emotion Recognition Method Based on Multimodal Information from Voice, Text, and Images.
 ## Table of Contents
 - [Paper Abstract](##PaperAbstract)
 - [Preparation](##Preparation)
