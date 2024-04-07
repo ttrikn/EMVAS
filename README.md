@@ -69,7 +69,7 @@ MSA_run (’mtme ’, ’sims ’, config = config )
 
 ## System Design
 ### Front-End and Back-End
-Conducting intuitive and efffcient multimodal emotion visualization analysis is crucial for processing these emotional data. As depicted in Figure 5, the designed system’s structure focuses on data collection through the input module, laying the groundwork for subsequent operations of the functionality module. In the data collection phase, our multimodal emotion analysis system concurrently processes three modalities: voice, video, and text. Speciffcally, we utilize microphones for voice data collection and cameras for capturing video, while textual data is extracted from audio signals using real-time speech recognition technology. 
+Conducting intuitive and efffcient multimodal emotion visualization analysis is crucial for processing these emotional data. As depicted in figure, the designed system’s structure focuses on data collection through the input module, laying the groundwork for subsequent operations of the functionality module. In the data collection phase, our multimodal emotion analysis system concurrently processes three modalities: voice, video, and text. Speciffcally, we utilize microphones for voice data collection and cameras for capturing video, while textual data is extracted from audio signals using real-time speech recognition technology. 
 
 <div align=center>
 <img src="https://github.com/ttrikn/EMVAS/blob/master/script/4.jpg" width="700"></img>
