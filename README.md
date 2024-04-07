@@ -9,8 +9,9 @@ This is the open source code for paper: Open source code for paper: End-to-End M
 ## Paper Abstract 
 
 > With the growing demand for end-to-end visual emotion analysis methods, particularly in fields such as fatigue monitoring for bus drivers and anomaly emotion detection in school students, this paper presents an End-to-End Multimodal Emotion Visualization Analysis System. Unlike traditional methods that rely solely on a single modality for end-to-end emotion analysis, our system comprehensively mines and analyzes emotional information in videos. It implements end-to-end analysis by extracting and integrating three modalities of information from videos: visual, textual, and auditory. Diverging from existing research focused primarily on algorithmic models, our system places greater emphasis on application-level real-time visualization display and analysis, offering detailed data such as timelines of emotional changes and frequencies of emotions. Additionally, we have developed a video preprocessing architecture specifically for extracting slices of unimodal information, including images, text, and voice, from raw videos. The system's effectiveness has been verified through model testing and real-world scenario applications.
->
+> <div align=center>
 > <img src="https://github.com/ttrikn/EMVAS/blob/master/script/1.jpg" width="1000"></img>
+> </div>
 ## Preparation
 ### Datasets
 As mentioned in our paper, in order to train our model, you need to download the CH-SIMS dataset here: [CH-SIMS](https://drive.google.com/drive/folders/1A2S4pqCHryGmiqnNSPLv7rEg63WvjCSk).or you can also use other multimodal sentiment datasets.
@@ -68,6 +69,8 @@ MSA_run (’mtme ’, ’sims ’, config = config )
 ## Demonstration of Visualization Cases
 To thoroughly evaluate the effectiveness of our system’s visual emotion analysis,as depicted in the figure, three distinct test segments were selected for examination.In the ffrst instance, Volunteer 1, who appeared dejected due to a foot injury, wasaccurately identiffed by the system as having a negative emotional state. In thesecond instance, Volunteer 2, speaking in an even, unemotional tone, was determinedby the system to have a neutral emotional state. In the third instance, Volunteer 3,elated by his favorite team’s victory, was correctly identiffed by the system as havinga positive emotion. These outcomes corroborate the high precision of our system inemotional analysis, demonstrating the potential applicability of our system model incomplex emotional recognition scenarios.
 
+<div align=center>
 <img src="https://github.com/ttrikn/EMVAS/blob/master/script/5.jpg" width="700"></img>
+</div>
 
 If you are interested in our work, please contact zhuxianxun@shu.edu.cn  
