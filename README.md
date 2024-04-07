@@ -1,4 +1,4 @@
-# E2E-MERA-SC
+# EMVAS
 This is the open source code for paper: Open source code for paper: End-to-End Multimodal Emotion Visualization Analysis System.
 ## Table of Contents
 - [Paper Abstract](##PaperAbstract)
@@ -64,5 +64,10 @@ config [’featurePath ’] = out_file
 # Execute the MSA run with the given configuration
 MSA_run (’mtme ’, ’sims ’, config = config )
 ```
+
+## Demonstration of Visualization Cases
+To thoroughly evaluate the effectiveness of our system’s visual emotion analysis,as depicted in the figure, three distinct test segments were selected for examination.In the ffrst instance, Volunteer 1, who appeared dejected due to a foot injury, wasaccurately identiffed by the system as having a negative emotional state. In thesecond instance, Volunteer 2, speaking in an even, unemotional tone, was determinedby the system to have a neutral emotional state. In the third instance, Volunteer 3,elated by his favorite team’s victory, was correctly identiffed by the system as havinga positive emotion. These outcomes corroborate the high precision of our system inemotional analysis, demonstrating the potential applicability of our system model incomplex emotional recognition scenarios.
+
+<img src="https://github.com/ttrikn/EMVAS/blob/master/script/5.jpg" width="700"></img>
 
 If you are interested in our work, please contact zhuxianxun@shu.edu.cn  
