@@ -66,14 +66,22 @@ config [’featurePath ’] = out_file
 MSA_run (’mtme ’, ’sims ’, config = config )
 ```
 
-## Real-World Testing
+## System Design
+### Front-End and Back-End
+Conducting intuitive and efffcient multimodal emotion visualization analysis is crucial for processing these emotional data. As depicted in Figure 5, the designed system’s structure focuses on data collection through the input module, laying the groundwork for subsequent operations of the functionality module. In the data collection phase, our multimodal emotion analysis system concurrently processes three modalities: voice, video, and text. Speciffcally, we utilize microphones for voice data collection and cameras for capturing video, while textual data is extracted from audio signals using real-time speech recognition technology. 
+
+<div align=center>
+<img src="https://github.com/ttrikn/EMVAS/blob/master/script/4.jpg" width="1000"></img>
+</div>
+
+### Real-World Testing
 In order to rigorously validate the accuracy of our system analysis, we recruited 50 volunteers for a practical test, as depicted in figure. During the test, volunteers expressed a range of emotions following scripts designed to mimic authentic emotional responses. Each volunteer participated in an emotion expression test lasting 2-3 minutes, with select script excerpts shown in figure. Analyzing and observing the emotional expressions of these 50 volunteers, the system demonstrated overall effectiveness in emotion recognition. However, it showed a reduced accuracy in scenarios where emotional expressions were less pronounced. Moving forward, we aim to reffne the model to enhance its accuracy in complex emotional recognition contexts.
 
 <div align=center>
 <img src="https://github.com/ttrikn/EMVAS/blob/master/script/3.jpg" width="1000"></img>
 </div>
 
-## Demonstration of Visualization Cases
+### Demonstration of Visualization Cases
 To thoroughly evaluate the effectiveness of our system’s visual emotion analysis,as depicted in the figure, three distinct test segments were selected for examination.In the ffrst instance, Volunteer 1, who appeared dejected due to a foot injury, was accurately identiffed by the system as having a negative emotional state. In the second instance, Volunteer 2, speaking in an even, unemotional tone, was determinedby the system to have a neutral emotional state. In the third instance, Volunteer 3,elated by his favorite team’s victory, was correctly identiffed by the system as having a positive emotion. These outcomes corroborate the high precision of our system inemotional analysis, demonstrating the potential applicability of our system model incomplex emotional recognition scenarios.
 
 <div align=center>
