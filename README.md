@@ -11,7 +11,7 @@ This is the open source code for paper: Open source code for paper: End-to-End M
 
 > With the growing demand for end-to-end visual emotion analysis methods, particularly in fields such as fatigue monitoring for bus drivers and anomaly emotion detection in school students, this paper presents an End-to-End Multimodal Emotion Visualization Analysis System. Unlike traditional methods that rely solely on a single modality for end-to-end emotion analysis, our system comprehensively mines and analyzes emotional information in videos. It implements end-to-end analysis by extracting and integrating three modalities of information from videos: visual, textual, and auditory. Diverging from existing research focused primarily on algorithmic models, our system places greater emphasis on application-level real-time visualization display and analysis, offering detailed data such as timelines of emotional changes and frequencies of emotions. Additionally, we have developed a video preprocessing architecture specifically for extracting slices of unimodal information, including images, text, and voice, from raw videos. The system's effectiveness has been verified through model testing and real-world scenario applications.
 > <div align=center>
-> <img src="https://github.com/ttrikn/EMVAS/blob/master/script/1.jpg" width="1000"></img>
+> <img src="https://github.com/ttrikn/EMVAS/blob/master/script/1.jpg" width="700"></img>
 > </div>
 ## Preparation
 ### Datasets
